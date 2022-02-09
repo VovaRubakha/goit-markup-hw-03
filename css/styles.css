@@ -188,7 +188,7 @@ header{
   margin: -1px;
 }
 
-.features .container {
+.features{
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -197,6 +197,9 @@ header{
 }
 .feature-list {
   display: flex;
+}
+.feature-list .list{
+  max-width: 270px ;
 }
 .feature-list .list + .list {
   margin-left: 30px;

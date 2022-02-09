@@ -49,6 +49,9 @@ ul {
 .logo-alt-color {
   color: var(--accent-color);
 }
+img{
+  display: block;
+}
 /* Навигация */
 
 .main-nav {
@@ -136,8 +139,7 @@ ul {
   padding: 10px 32px;
   border-radius: 4px;
 }
-.primary {
-}
+
 .button-secondary {
   color: var(--primary-text-color);
   background-color: var(--primary-button-color);
